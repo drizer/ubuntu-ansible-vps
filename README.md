@@ -1,7 +1,21 @@
-# Ansible Pull tutorial
+# Ansible Ubuntu Terrminal VPS
 
 ![Ansible Logo](https://www.learnlinux.tv/wp-content/uploads/2020/12/ansible-e1607524003363.png)
 
-This repository was used for the Ansible Pull tutorial from the LearnLinux.TV YouTube channel.
+This repository was used setup up terminal server vps:
 
-You can view the original video for this repository [here](https://youtu.be/sn1HQq_GFNE).
+## services
+- docker
+    - reverse proxy
+    - portainer
+- tailscale
+  
+## developement tools
+= c/cpp
+- rust
+- java/clojure/scala
+- bash
+  
+## editors
+- emacs
+- vim/neovim
