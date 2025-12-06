@@ -9,6 +9,11 @@
       changed_when: False
 
   tasks:
-    - include: tasks/users.yml
-    - include: tasks/cron.yml
-    - include: tasks/packages.yml
+    - name: Include user tasks
+      import_tasks: tasks/users.yml
+
+    - name: Include cron tasks
+      import_tasks: tasks/cron.yml
+
+    - name: Include package tasks
+      import_tasks: tasks/packages.yml
